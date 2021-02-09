@@ -1,5 +1,5 @@
 import numpy as np
-from forest_nfdu import NFDUTree,exNode,inNode
+from forest_AAPF import NFDUTree,exNode,inNode
 from lib.performance import roc_auc, f1, pr, plot_performance_auc_pr_f1
 import random
 from skmultiflow.data import DataStream
